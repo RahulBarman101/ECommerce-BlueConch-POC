@@ -11,7 +11,7 @@
 
 ![](Images/loginpage.PNG)
 
-![](Images/shopping-cartpagepage.PNG)
+![](Images/shopping-cartpage.PNG)
 
 ![](Images/checkoutpage.PNG)
 
