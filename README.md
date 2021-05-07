@@ -7,11 +7,11 @@
 # Run the angular project - 
     * run the angular project "ng-serve"
 
-![](Images/homepage.png)
+![](Images/homepage.PNG)
 
-![](Images/loginpage.png)
+![](Images/loginpage.PNG)
 
-![](Images/shopping-cartpagepage.png)
+![](Images/shopping-cartpagepage.PNG)
 
-![](Images/checkoutpage.png)
+![](Images/checkoutpage.PNG)
 
