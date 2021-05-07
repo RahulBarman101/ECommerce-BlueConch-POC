@@ -5649,11 +5649,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\API BlueConch\\BlueConch Ecommerce Api\\BlueConch Ecommerce Api\\BlueConch Ecommerce Api.csproj",
+      "projectUniqueName": "E:\\POC\\Backend\\API BlueConch\\BlueConch Ecommerce Api\\BlueConch Ecommerce Api\\BlueConch Ecommerce Api.csproj",
       "projectName": "BlueConch Ecommerce Api",
-      "projectPath": "E:\\API BlueConch\\BlueConch Ecommerce Api\\BlueConch Ecommerce Api\\BlueConch Ecommerce Api.csproj",
+      "projectPath": "E:\\POC\\Backend\\API BlueConch\\BlueConch Ecommerce Api\\BlueConch Ecommerce Api\\BlueConch Ecommerce Api.csproj",
       "packagesPath": "C:\\Users\\rahul\\.nuget\\packages\\",
-      "outputPath": "E:\\API BlueConch\\BlueConch Ecommerce Api\\BlueConch Ecommerce Api\\obj\\",
+      "outputPath": "E:\\POC\\Backend\\API BlueConch\\BlueConch Ecommerce Api\\BlueConch Ecommerce Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

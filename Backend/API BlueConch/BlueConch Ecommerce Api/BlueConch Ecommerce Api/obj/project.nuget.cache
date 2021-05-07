@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+/G+L6lO/gQyCLjZAYlwjmlGvVPBNb9jjCP1cxwjN8RqN1lQstTYLH/IqLz3JuswlrN7Yj++L1ZvD6EyAVIiig==",
+  "dgSpecHash": "CaivCSq1CEDYLlwF5YEUeMB/3u5mj2rjgKch/20cuOUY0KnAEEP+eVHNaPO1d8vIAEEDMz7z7nuwqQQIEncbsg==",
   "success": true,
-  "projectFilePath": "E:\\API BlueConch\\BlueConch Ecommerce Api\\BlueConch Ecommerce Api\\BlueConch Ecommerce Api.csproj",
+  "projectFilePath": "E:\\POC\\Backend\\API BlueConch\\BlueConch Ecommerce Api\\BlueConch Ecommerce Api\\BlueConch Ecommerce Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rahul\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\rahul\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\5.0.5\\microsoft.aspnetcore.jsonpatch.5.0.5.nupkg.sha512",
