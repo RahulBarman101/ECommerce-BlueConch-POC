@@ -1,0 +1,31 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="filter-col col col-md-3">
+            <div class="container filter-container">
+                <div class="row category active">
+                    All Categories
+                </div>
+                <div *ngFor="let category of categories" class="row category">
+                    {{category}}
+                </div>
+            </div>
+        </div>
+        <div class="main-col offset-sm-1 col justify-content-start">
+            <div class="row">
+                <ng-container *ngFor="let item of items;let i=index">
+                    <div class="col">
+                        <div class="card">
+                            <img class="card-img-top" src="{{item['itemUrl']}}" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">{{item['itemName']}}</h5>
+                                <p>Price: {{item['itemPrice'] | currency:'INR':'symbol'}}</p>
+                                <a class="btn btn-primary" (click) = "addToCart(item)">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div *ngIf="(i+1) %2 === 0" class="w-100"></div>
+                </ng-container>
+            </div>
+        </div>
+    </div>
+</div>

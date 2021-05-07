@@ -1,0 +1,48 @@
+<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+    <a routerLink="/" class="navbar-brand">BlueConch POC</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDeafult" aria-controls="navbarsExampleDeafult" aria-expanded="flase" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a routerLink="/shopping-cart" class="nav-link">
+                    <i class="bi bi-cart"></i>
+                </a>
+            </li>
+            <ng-template #loggedOutUser>
+                <li *ngIf="!apiAuth.user" class="nav-item">
+                    <a routerLink="/login" class="nav-link">
+                        Log In
+                    </a>
+                </li>
+            </ng-template>
+            <li *ngIf="auth.user$ | async as user; else loggedOutUser" ngbDropdown class="nav-item dropdown">
+                <a ngbDropdownToggle 
+                class="nav-link dropdown-toggle" 
+                id="dropdown01" 
+                data-toggle="dropdown" 
+                aria-haspopup="true" 
+                aria-expanded="false">
+                    {{user.displayName}}
+                </a>
+                <div ngbDropdownMenu class="dropdown-menu" aria-labelledby="dropdown01">
+                    <a routerLink="/my/orders" class="dropdown-item">My Orders</a>
+                    <!-- <a routerLink="/admin/products" class="dropdown-item">Manage Products</a>
+                    <a routerLink="/admin/orders" class="dropdown-item">Manage Orders</a> -->
+                    <a (click)="logout()" class="dropdown-item">Log Out</a>
+                </div>
+            </li>
+            <li *ngIf="apiAuth.user" class="nav-item dropdown">
+                <a 
+                class="nav-link dropdown-toggle"
+                id="dropdown02"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false">
+                    {{apiAuth.userName}}
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>

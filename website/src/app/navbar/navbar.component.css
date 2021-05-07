@@ -1,0 +1,12 @@
+#dropdown01 {
+    cursor: pointer;
+}
+
+.mr-auto {
+    align-items: center;
+}
+
+.bi-cart {
+    margin-top: -6px;
+    float: right;
+}

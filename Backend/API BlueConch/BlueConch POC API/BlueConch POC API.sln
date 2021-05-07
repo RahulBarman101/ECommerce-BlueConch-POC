@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueConch POC API", "BlueConch POC API\BlueConch POC API.csproj", "{40F2212E-12A3-4170-A31B-A4F94026F948}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40F2212E-12A3-4170-A31B-A4F94026F948}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40F2212E-12A3-4170-A31B-A4F94026F948}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40F2212E-12A3-4170-A31B-A4F94026F948}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40F2212E-12A3-4170-A31B-A4F94026F948}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2267D57-38EE-45DA-A2FB-BFC9B4BBE24F}
+	EndGlobalSection
+EndGlobal

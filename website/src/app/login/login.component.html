@@ -1,0 +1,17 @@
+<div class="login-form">
+    <form (ngSubmit)="submit(f)" #f="ngForm">
+
+        <label for="username">User Name</label>
+        <input required ngModel #uName="ngModel" name="username" type="text" id="username" class="form-control">
+
+        <label for="password">Password</label>
+        <input required ngModel #password="ngModel" name="passwd" type="password" id="password" class="form-control">
+
+        <button class="btn btn-primary submit-btn">Submit</button>
+    </form>
+
+    <!-- <h5>OR</h5> -->
+    <!-- <div class="google-login">
+        <button (click)="login()" class="btn btn-primary">Login with Google</button>
+    </div> -->
+</div>

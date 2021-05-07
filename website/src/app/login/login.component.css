@@ -1,0 +1,20 @@
+.login-form {
+    max-width: 800px;
+    margin: auto;
+}
+
+form * {
+    margin-bottom: 20px;
+}
+
+.submit-btn {
+    margin: 20px 0 ;
+}
+
+.google-login {
+    margin-top: 20px;
+}
+
+.form-control.ng-invalid.ng-touched {
+    border: 2px solid red;
+}

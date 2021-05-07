@@ -1,0 +1,21 @@
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th></th>
+        <th scope="col">Product</th>
+        <th scope="col">Quantity</th>
+        <th scope="col">Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of itemsList; let i = index">
+        <th scope="row">
+            <img src="{{item['itemUrl']}}" alt="" class="shopping-cart-item-img">
+        </th>
+        <td>{{item['itemName']}}</td>
+        <td class="quantity-col"><button class="btn btn-dark" (click)="addQuantity(items[i]['order_id'],i,itemsList['itemId'])">+</button><h5 class="quantity">{{items[i]['quantity']}}</h5><button (click)="removeQuantity(items[i]['order_id'],i)" class="btn btn-dark">-</button></td>
+        <td>{{item['itemPrice'] * items[i]['quantity']}}</td>
+      </tr>
+    </tbody>
+</table>
+<button (click)="confirmOrder()" class="btn btn-primary">Confirm Order</button>
